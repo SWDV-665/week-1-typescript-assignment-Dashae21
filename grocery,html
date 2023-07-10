@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Grocery List</title>
+  </head>
+  <body>
+    <h1>Grocery List</h1>
+    <ul>
+      ${groceries.map((grocery) => `<li>${grocery.name} - ${grocery.quantity}</li>`).join('')}
+    </ul>
+  </body>
+</html>
